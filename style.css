@@ -2463,7 +2463,7 @@ input[type="range"]::-webkit-slider-thumb {
     
 }
 
-@media screen and (mqx-width: 639px) {
+@media screen and (max-width: 639px) {
     #cart-table thead {
         display: none;
     }
@@ -2492,6 +2492,7 @@ input[type="range"]::-webkit-slider-thumb {
         top: 0;
         right: 0;
     }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -2524,6 +2525,9 @@ input[type="range"]::-webkit-slider-thumb {
 
     .checkout .item.right {
         padding: 5em 0 0 5em;
+    }
+    .main-content{
+        justify-content: center;
     }
 }
 
@@ -2779,5 +2783,8 @@ input[type="range"]::-webkit-slider-thumb {
         width: 34%;
         padding-left: 2.5em;
         margin-top: 0;
+    }
+    .main-content{
+        justify-content: center;
     }
 }
